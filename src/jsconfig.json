@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"],
+      "services/*": ["./services/*"],
+      "utilities/*": ["./utilities/*"],
+      "components/*": ["./components/*"],
+      "containers/*": ["./containers/*"],
+      "contexts/*": ["./contexts/*"],
+      "storeon/*": ["./storeon/*"],
+      "stores/*": ["./stores/*"]
+    }
+  },
+  "exclude": ["./node_modules/", "./.next/", "./dist/"]
+}
